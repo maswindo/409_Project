@@ -14,7 +14,7 @@ public class FileReader {
 		CNF test=new CNF(storage);
 		//System.out.println(test.toString());
 	}
-		
+	//You can call 
 	public static void main(String[] args) {
 		try {
 				CNF temp = new CNF(args[0]);

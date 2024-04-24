@@ -5,7 +5,8 @@ public class CNF {
 		words=input;
 		System.out.println(words);
 	}
-	
+	//I'm not sure this is the right way to do. 
+	//We might need to make a parser
 	public boolean question1() {
 		boolean result=false;
 		char firstChar=words.charAt(0);
