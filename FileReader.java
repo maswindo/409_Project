@@ -7,14 +7,18 @@ import java.nio.file.Files;
 public class FileReader {
 	
 
-	
+	CNF test=null;
 	public FileReader(String input) {
 		
 		String storage=GetAllBytes(input);
-		CNF test=new CNF(storage);
+		test=new CNF(storage);
 		//System.out.println(test.toString());
 	}
-	//You can call 
+	
+	public CNF getCNF() {
+		return test;
+	}
+	//You can call CNF if u want.
 	public static void main(String[] args) {
 		try {
 				CNF temp = new CNF(args[0]);

@@ -3,7 +3,7 @@ public class CNF {
 	String words;
 	public CNF(String input) {
 		words=input;
-		System.out.println(words);
+		//System.out.println(words);
 	}
 	//I'm not sure this is the right way to do. 
 	//We might need to make a parser
