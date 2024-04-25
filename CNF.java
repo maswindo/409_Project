@@ -9,10 +9,11 @@ public class CNF {
 	static String words;// input from txt file
 	// ArrayList<Character> characters = new ArrayList<>();
 	// Key is Symbol and String[] is the definition. Ex: S→Ax
-	static HashMap<String, String[]> definition = new HashMap<String, String[]>();
+	static HashMap<String[],String> definition = new HashMap< String[],String>();
 
 	public CNF(String input) {
 		words = input;
+		
 		// System.out.println(words);
 	}
 
@@ -73,7 +74,7 @@ public class CNF {
 			}
 			// Printing out result
 			System.out.println(startingSymbol + "→" + Arrays.toString(result));
-			definition.put(startingSymbol, result);// Store the work to Hashmap
+			definition.put(result,startingSymbol);// Store the work to Hashmap
 			indexForTranslation = 0;
 		}
 	}
@@ -82,7 +83,7 @@ public class CNF {
 	// If it's the end of txt file, return -1.
 	public static int findNextSpecialChar(int start) {
 		for (int i = start; i < words.length(); i++) {
-			if (words.charAt(i) == ' ' || words.charAt(i) == '|' || words.charAt(i) == '\n') {
+			if (words.charAt(i) == '→' || words.charAt(i) == ' ' || words.charAt(i) == '|' || words.charAt(i) == '\n') {
 				i++;
 				return i;
 			}
@@ -97,7 +98,7 @@ public class CNF {
 		int index = start;
 		while (loop == true) {
 			//Look for special characters and break. Else, store Strings to result.
-			if (index == words.length()
+			if (index == words.length() || words.charAt(index) == '→'
 					|| (words.charAt(index) == ' ' || words.charAt(index) == '|' || words.charAt(index) == '\n')) {
 
 				break;
