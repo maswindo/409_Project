@@ -14,10 +14,11 @@ public class FileReader {
 		test=new CNF(storage);
 		//System.out.println(test.toString());
 	}
-	
+	//returns CNF that contains String file
 	public CNF getCNF() {
 		return test;
 	}
+	
 	//You can call CNF if u want.
 	public static void main(String[] args) {
 		try {
