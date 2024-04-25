@@ -1,0 +1,9 @@
+S0 → S1 | ε
+S1 → AR | SS
+S  → AR | SS
+A  → NZ
+N  → L
+Z  → X
+X  → S
+L  → (
+R  → )

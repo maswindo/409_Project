@@ -1,0 +1,7 @@
+S X1T | TX1 | AB | X2
+T X1T | TX1 | X2
+U AB | X2
+A X1U
+B X1X1
+X1 0
+X2 #

@@ -1,0 +1,12 @@
+S CN | BN | Am | m | C | A | B | ε
+m C1X1 | A2X2| X3 | B2X3
+N X1N | X2N | X3N | X1 | X2 | X3
+A NX3 | X3
+B mX3
+C AB
+C1 X1m
+A2 X2m
+B2 X3m
+X1 a
+X2 b
+X3 #

@@ -1,0 +1,14 @@
+S AB | XZ
+S1 AB 
+S2 XZ
+A X1b | X2
+X A1X | A1
+B BC | C
+Z X3C | X4
+X1 A1A
+X2 A1B1
+X3 B1Z
+X4 B1C
+A1 a
+B1 b
+C c
