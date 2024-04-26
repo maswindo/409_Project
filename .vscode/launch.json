@@ -4,6 +4,15 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+
+        {
+            "type": "java",
+            "name": "CNF",
+            "request": "launch",
+            "mainClass": "CNF",
+            "projectName": "409_Project_d6ff9adf"
+        },
         {
             "type": "java",
             "name": "Current File",

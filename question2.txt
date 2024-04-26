@@ -1,14 +1,12 @@
-S AB | XZ
-S1 AB 
-S2 XZ
-A X1b | X2
-X A1X | A1
-B BC | C
-Z X3C | X4
-X1 A1A
-X2 A1B1
-X3 B1Z
-X4 B1C
-A1 a
-B1 b
-C c
+S -> A B | X Z
+A -> X1 B | X2
+B -> B C | C
+X -> A1 X | A1
+Z -> X3 C | X4
+X1 -> A1 B1
+X2 -> A1 B1 | A1
+X3 -> B1 Z
+X4 -> B1 C
+A1 -> a
+B1 -> b
+C -> c
